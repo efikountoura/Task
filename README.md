@@ -14,6 +14,6 @@ Standalone C++17 app that simulates a simplified downlink link-adaptation loop f
 
 - SINR-CQI thresholds and CQI-MCS matching are simplifications of the real, non-linear BLER-based process (3GPP TS 38.214, Tables 5.2.2.1-2 and 5.1.3.1-1)
 - CQI 1 has no MCS satisfying `SE(MCS) ≤ SE(CQI)` — handled by explicitly falling back to MCS 0 (most robust), since CQI 1 is a valid operating point, not "out of range"
-- Fixed bandwidth/overhead (no multi-user scheduling, OLLA, HARQ, or MIMO modeled)
+- Fixed bandwidth/overhead 
 
 
