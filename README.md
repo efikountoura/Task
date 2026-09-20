@@ -1,6 +1,6 @@
 # 5G NR Downlink Link Adaptation Simulator
 
-Standalone C++17 app that simulates a simplified downlink link-adaptation loop for a single UE, over ~1,000 transmission intervals:
+Standalone C++17 app that simulates a simplified downlink link-adaptation loop for a single UE, over ~1,000 transmission intervals
 
 ## What it does
 
