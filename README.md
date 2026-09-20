@@ -20,15 +20,4 @@ generateSINR() → sinrToCqi() → cqiToMcs() → estimateThroughput()
 - CQI 1 has no MCS satisfying `SE(MCS) ≤ SE(CQI)` — handled by explicitly falling back to MCS 0 (most robust), since CQI 1 is a valid operating point, not "out of range"
 - Fixed bandwidth/overhead (no multi-user scheduling, OLLA, HARQ, or MIMO modeled)
 
-## Build & run
 
-```bash
-g++ -std=c++17 -O2 task.cpp -o simulator
-./simulator
-```
-
-Outputs a console summary and `simulation_results.csv`.
-
-## References
-
-3GPP TS 38.214 — *NR; Physical layer procedures for data*
